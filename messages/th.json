@@ -1,0 +1,19 @@
+{
+  "NavbarLinks": {
+    "home": "หน้าแรก",
+    "homeTitle": "Home page",
+    "about": "About",
+    "aboutTitle": "About page",
+    "profile": "Profile",
+    "profileTitle": "Profile page"
+  },
+  "HomePage": {
+    "title": "หน้าแรก page"
+  },
+  "AboutPage": {
+    "title": "About"
+  },
+  "ProfilePage": {
+    "title": "Profile"
+  }
+}
