@@ -16,6 +16,11 @@ export default async function RootLayout({
   const { locale } = await params;
   return (
     <html lang={locale}>
+      <head>
+        <title>ABBON PROJECT</title>
+        <meta property="og:title" content="ABBON PROJECT" key="title" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
       <body>
         <AntdRegistry>
           <NextIntlClientProvider messages={messages}>
