@@ -1,19 +1,27 @@
 {
   "NavbarLinks": {
     "home": "Home",
-    "homeTitle": "Home page",
-    "about": "About",
-    "aboutTitle": "About page",
-    "profile": "Profile",
-    "profileTitle": "Profile page"
+    "contact-list": "Contact List",
+    "contact-create": "Contact Form"
   },
   "HomePage": {
-    "title": "Landing page"
+    "title": "Home page",
+    "name": "Name",
+    "surname": "Surname",
+    "suggest_text": "Mouse cover on the image to change the profile picture"
   },
   "AboutPage": {
     "title": "About"
   },
-  "ProfilePage": {
-    "title": "Profile"
+  "ContactListPage": {
+    "title": "Contact List Page",
+    "title-createPage": "Create Contact page",
+    "name-surname": "Name-Surname",
+    "require-message-name-surname": "Name and Surname is require",
+    "validate-message-name-surname": "First and last name must be at least 3 characters long.",
+    "age": "Age",
+    "require-message-age": "Age is require",
+    "validate-message-age": "Please enter a number",
+    "submit": "Submit"
   }
 }

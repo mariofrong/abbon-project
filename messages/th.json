@@ -1,19 +1,27 @@
 {
   "NavbarLinks": {
     "home": "หน้าแรก",
-    "homeTitle": "Home page",
-    "about": "About",
-    "aboutTitle": "About page",
-    "profile": "Profile",
-    "profileTitle": "Profile page"
+    "contact-list": "หน้ารายชื่อ",
+    "contact-create": "หน้าสร้างรายชื่อ"
   },
   "HomePage": {
-    "title": "หน้าแรก page"
+    "title": "หน้าแรก",
+    "name": "ชื่อ",
+    "surname": "นามสกุล",
+    "suggest_text": "นำเมาส์ชี้ที่บนภาพเพื่อทำการเปลี่ยนรูปโปรไฟล์"
   },
   "AboutPage": {
     "title": "About"
   },
-  "ProfilePage": {
-    "title": "Profile"
+  "ContactListPage": {
+    "title": "หน้ารายชื่อ",
+    "title-createPage": "หน้าสร้างรายชื่อ",
+    "name-surname": "ชื่อ-นามสกุล",
+    "require-message-name-surname": "กรุณาใส่ชื่อ-นามสกุล",
+    "validate-message-name-surname": "ชื่อ-นามสกุลต้องยาวอย่างน้อย 3 ตัวอักษร",
+    "age": "อายุ",
+    "require-message-age": "กรุณาใส่อายุ",
+    "validate-message-age": "กรุณาใส่เป็นตัวเลข",
+    "submit": "ส่งคำตอบ"
   }
 }
