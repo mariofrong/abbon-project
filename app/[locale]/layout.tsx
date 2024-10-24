@@ -1,7 +1,9 @@
-import Navbar from "@/components/Navbar";
 import "../globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import { AntdRegistry } from "@ant-design/nextjs-registry";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default async function RootLayout({
   children,
@@ -15,12 +17,20 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body>
-        <NextIntlClientProvider messages={messages}>
-          <div className="mx-auto max-w-4xl h-screen">
-            <Navbar locale={locale} />
-            {children}
-          </div>
-        </NextIntlClientProvider>
+        <AntdRegistry>
+          <NextIntlClientProvider messages={messages}>
+            <div className="w-full h-screen">
+              <Navbar locale={locale} />
+              {children}
+              <Footer
+                phoneNumber="+66910711787"
+                address="THE 9th TOWERS, Grand Rama9,Tower A, 30th Floor33/4 Rama 9 Road, Huay Kwang,Huay Kwang, Bangkok 10310"
+                email="sirisakwongwal111@gmail.com"
+                lineUrl="https://line.me/ti/p/J8nEmSRByy"
+              />
+            </div>
+          </NextIntlClientProvider>
+        </AntdRegistry>
       </body>
     </html>
   );
